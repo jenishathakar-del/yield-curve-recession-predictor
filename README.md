@@ -15,8 +15,6 @@ The engine assesses market health by tracking the spread delta Y between the 10-
 ```math
 \Delta Y = Y_{10} - Y_{2}
 
-Where a negative spread represents a structural inversion boundary breach, triggering an automated capital reallocation script to shift mock institutional assets out of highly cyclical equities and into defensive, interest-bearing capital reserves.
-
 ## Empirical Results & Conclusion
 * **2-Year Sovereign Bond Yield:** 4.85%
 * **10-Year Sovereign Bond Yield:** 4.21%
