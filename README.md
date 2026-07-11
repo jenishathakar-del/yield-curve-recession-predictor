@@ -10,10 +10,19 @@ In stable macroeconomic environments, the yield curve slopes upward, reflecting 
 This project explores the yield curve inversion as a highly reliable leading indicator of market cycle transition. The framework proves how tracking structural distortions in fixed-income instruments allows quantitative macro-analysts to forecast contractionary macroeconomic shocks long before they manifest in backward-looking equity market data or GDP reports.
 
 ## Quantitative Methodology
-The engine assesses market health by tracking the spread delta Y between the 10-Year Bond Yield and the 2-Year Bond Yield:
+The engine assesses market health by tracking the spread delta $\Delta Y$ between the 10-Year Bond Yield and the 2-Year Bond Yield:
 
-```math
+$$
 \Delta Y = Y_{10} - Y_{2}
+$$
+
+The systemic risk profile is evaluated through a deterministic conditional probability function:
+
+$$
+P(\text{Recession}) = \begin{cases} 92.5\% & \text{if } \Delta Y < 0 \\ 12.0\% & \text{if } \Delta Y \ge 0 \end{cases}
+$$
+
+Where a negative spread represents a structural inversion boundary breach, triggering an automated capital reallocation script to shift mock institutional assets out of highly cyclical equities and into defensive, interest-bearing capital reserves.
 
 ## Empirical Results & Conclusion
 * **2-Year Sovereign Bond Yield:** 4.85%
