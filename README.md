@@ -27,8 +27,6 @@ $$
 
 Where a negative spread represents a structural inversion boundary breach, triggering an automated capital reallocation script to shift mock institutional assets out of highly cyclical equities and into defensive, interest-bearing capital reserves.
 
-Where a negative spread represents a structural inversion boundary breach, triggering an automated capital reallocation script to shift mock institutional assets out of highly cyclical equities and into defensive, interest-bearing capital reserves.
-
 ## Empirical Results & Conclusion
 * **2-Year Sovereign Bond Yield:** 4.85%
 * **10-Year Sovereign Bond Yield:** 4.21%
