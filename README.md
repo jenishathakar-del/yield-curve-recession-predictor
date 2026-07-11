@@ -19,8 +19,13 @@ $$
 The systemic risk profile is evaluated through a deterministic conditional probability function:
 
 $$
-P(\text{Recession}) = \begin{cases} 92.5\% & \text{if } \Delta Y < 0 \\ 12.0\% & \text{if } \Delta Y \ge 0 \end{cases}
+P(\text{Recession}) = \begin{cases} 
+92.5\% & \text{if } \Delta Y < 0 \\ 
+12.0\% & \text{if } \Delta Y \ge 0 
+\end{cases}
 $$
+
+Where a negative spread represents a structural inversion boundary breach, triggering an automated capital reallocation script to shift mock institutional assets out of highly cyclical equities and into defensive, interest-bearing capital reserves.
 
 Where a negative spread represents a structural inversion boundary breach, triggering an automated capital reallocation script to shift mock institutional assets out of highly cyclical equities and into defensive, interest-bearing capital reserves.
 
