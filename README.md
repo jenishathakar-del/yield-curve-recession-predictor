@@ -16,7 +16,7 @@ $$\Delta Y = Y_{10} - Y_{2}$$
 
 The systemic risk profile is evaluated through a deterministic conditional probability function:
 
-$$P(\text{Recession}) = f(\Delta Y) = \begin{cases} 92.5\%, & \text{if } \Delta Y < 0 \\ 12.0\%, & \text{if } \Delta Y \ge 0 \end{cases}$$
+$$P(\text{Recession}) = f(\Delta Y) = \begin{cases} 92.5\%, & \text{if } \Delta Y < 0 \\\\ 12.0\%, & \text{if } \Delta Y \ge 0 \end{cases}$$
 
 Where a negative spread ($\Delta Y < 0$) represents a structural inversion boundary breach, triggering an automated capital reallocation script to shift mock institutional assets out of highly cyclical equities and into defensive, interest-bearing capital reserves.
 
